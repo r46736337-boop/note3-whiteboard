@@ -3,42 +3,18 @@
     "name": "Note3 Whiteboard",
     "slug": "note3-whiteboard",
     "version": "1.0.0",
-    "orientation": "default",
-    "icon": "./assets/icon.png",
+    "orientation": "portrait",
     "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#1e293b"
-    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
-      "package": "com.hemanth.note3whiteboard",
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#1e293b"
-      },
-      "permissions": [
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE"
-      ]
+      "package": "com.hemanth.note3whiteboard"
     },
-    "plugins": [
-      [
-        "expo-camera",
-        {
-          "cameraPermission": "Allow Note3 to capture photos for your whiteboard."
-        }
-      ],
-      [
-        "expo-image-picker",
-        {
-          "photosPermission": "Allow Note3 to access photos to insert into whiteboard pages."
-        }
-      ]
-    ]
+    "extra": {
+      "eas": {
+        "projectId": "note3-whiteboard"
+      }
+    }
   }
 }
