@@ -2,6 +2,7 @@
   "expo": {
     "name": "Note3 Whiteboard",
     "slug": "note3-whiteboard",
+    "owner": "hemanthgoogles-team",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
